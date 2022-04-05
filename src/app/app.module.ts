@@ -7,17 +7,20 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule,
-  MatIconModule,
-  MatCardModule,
-  MatButtonModule,
-  MatProgressSpinnerModule } from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { MatCardModule } from '@angular/material/card';
+import { MatIconModule } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { RegisterComponent } from './register/register.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    RegisterComponent, 
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { MatToolbarModule,
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    ReactiveFormsModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]
