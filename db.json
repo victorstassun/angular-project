@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "json-server",
+      "price": 12.5,
+      "quantity": 2,
+      "description": "akldalsdpasdmsdpasdsásasmld",
+      "imageUrl": "https://images.unsplash.com/photo-1649134714015-6ec431ba8af1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+    },
+    {
+      "id": 2,
+      "name": "json",
+      "price": 50.6,
+      "quantity": 4,
+      "description": "product",
+      "imageUrl": "https://images.unsplash.com/photo-1649130381732-2a2f9b33640f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+    },
+    {
+      "name": "adasdasddas",
+      "price": "3",
+      "quantity": "12",
+      "description": "dasasdasdasd",
+      "imageUrl": "dasdasdasdasda",
+      "id": 3
+    },
+    {
+      "name": "Java",
+      "price": "45",
+      "quantity": "3",
+      "description": "Programa java",
+      "imageUrl": "https://images.unsplash.com/photo-1648737119247-e93f56878edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80",
+      "id": 4
+    }
+  ]
+}

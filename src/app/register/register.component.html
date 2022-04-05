@@ -1,0 +1,85 @@
+<form class="needs-validation" novalidate [formGroup]="form">
+  <div class="form-row">
+    <div class="col-sm-12">
+      <label for="name">Product Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="name"
+        placeholder="Product name"
+        formControlName="name"
+        [ngClass] = "{'is-invalid': submitted && hasError('name')}"
+        required
+      />
+      <div class="invalid-feedback" *ngIf="hasError('name')">
+          Please, insert a valid information! 
+      </div>
+    </div>
+  <div class="col-sm-12">
+    <label for="price">Price</label>
+    <input
+      type="text"
+      class="form-control"
+      id="price"
+      placeholder="Price"
+      formControlName="price"
+      [ngClass] = "{'is-invalid': submitted && hasError('price')}"
+      required
+    />
+    <div class="invalid-feedback" *ngIf="hasError('name')">
+        Please, insert a valid information! 
+    </div>
+  </div>
+<div class="col-sm-12">
+    <label for="quantity">Quantity</label>
+    <input
+      type="text"
+      class="form-control"
+      id="quantity"
+      placeholder="Quantity"
+      formControlName="quantity"
+      [ngClass] = "{'is-invalid': submitted && hasError('quantity')}"
+      required
+    />
+    <div class="invalid-feedback" *ngIf="hasError('name')">
+        Please, insert a valid information! 
+    </div>
+  </div>
+
+<div class="col-sm-12">
+    <label for="description">Description</label>
+    <input
+      type="text"
+      class="form-control"
+      id="description"
+      placeholder="Description"
+      formControlName="description"
+      [ngClass] = "{'is-invalid': submitted && hasError('description')}"
+      required
+    />
+    <div class="invalid-feedback" *ngIf="hasError('name')">
+        Please, insert a valid information! 
+    </div>
+  </div>
+<div class="col-sm-12">
+    <label for="imageUrl">ImageUrl</label>
+    <input
+      type="text"
+      class="form-control"
+      id="imageUrl"
+      placeholder="ImageUrl"
+      formControlName="imageUrl"
+      [ngClass] = "{'is-invalid': submitted && hasError('imageUrl')}"
+      required
+    />
+    <div class="invalid-feedback" *ngIf="hasError('name')">
+        Please, insert a valid information! 
+    </div>
+  </div>
+    <div style="margin-top: 10px;">
+        <button type="submit"class="btn btn-primary" (click)="onSubmit()">Save</button>
+        <button type="button"class="btn btn-default" (click)="onCancel">Cancel</button>
+    </div>
+</div>
+</form>
+
