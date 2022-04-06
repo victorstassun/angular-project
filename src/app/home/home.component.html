@@ -16,8 +16,7 @@
         <img src="{{ product.imageUrl }}" />
       </mat-card-content>
       <mat-card-actions>
-        <button mat-button>Buy product</button>
-
+        <button mat-button (click)="addToCart(product)">Buy product</button>
       </mat-card-actions>
     </mat-card>
   </div>
