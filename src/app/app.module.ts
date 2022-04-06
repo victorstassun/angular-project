@@ -14,13 +14,15 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RegisterComponent } from './register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ShopcartComponent } from './shopcart/shopcart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    RegisterComponent, 
+    RegisterComponent,
+    ShopcartComponent, 
   ],
   imports: [
     BrowserModule,

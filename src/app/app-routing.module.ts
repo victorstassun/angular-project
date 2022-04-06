@@ -3,13 +3,15 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { RegisterComponent } from './register/register.component';
+import { ShopcartComponent } from './shopcart/shopcart.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full'},
   { path: 'home', component: HomeComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'register', component: RegisterComponent}
+  { path: 'register', component: RegisterComponent},
+  { path: 'shopcart', component: ShopcartComponent}
 ];
 
 @NgModule({
