@@ -35,7 +35,7 @@ export class ProductsService {
   }
 
   clearCart() {
-    this.items = [];
+    this.items.length = 0;
     return this.items;
   }
 }
