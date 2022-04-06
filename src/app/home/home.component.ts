@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
 
   products: Products[];
 
-  constructor(private service: ProductsService, private productService: ProductsService, private route: ActivatedRoute) { }
+  constructor(private service: ProductsService, private productService: ProductsService) { }
 
   ngOnInit() {
     this.service.list().subscribe(
